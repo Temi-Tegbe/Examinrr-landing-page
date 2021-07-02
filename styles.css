@@ -12,9 +12,10 @@
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     
-   
-    
-    
+}
+
+.top-body-background {
+    background-image:url("/View\ Point\ height.png");
 }
 
 nav {
@@ -44,6 +45,7 @@ nav a:last-child  {
     border: 3px solid #092A65;
     width: auto;
     padding-right: 10px;
+    border-radius: 7px;
     
 }
 
@@ -59,9 +61,10 @@ nav a:last-child  {
     margin-left: 20px;
     width: auto;
     justify-content: space-around;
-    background-color: white;
+    /* background-color: white; */
     margin-top: 50px;
     flex-wrap: wrap;
+    
     
 }
 
@@ -198,10 +201,11 @@ nav a:last-child  {
     justify-content: space-evenly;
     margin-top: 100px;
     flex-wrap: wrap;
+    background-image: url("/ABOUT\ US\ CONTAINER.png");
 }
 .about-us-image-container {
     display: flex;
-    position: relative;
+    
     flex-wrap: wrap;
 }
 
@@ -214,18 +218,10 @@ nav a:last-child  {
     border-radius: 15px;
     margin: 20px;
     margin-left: 60px;
-    z-index: 9;
+    
     flex-wrap: wrap;
 }
-.rectangle-image img {
-    position:absolute;
-    width: 150px;
-    height: 150px;
-    margin-left: -5px;
-    margin-top: -15px;
-    z-index: -1;
-    border-radius: 50%;
-}
+
 
 
 .about-us-text {
@@ -235,8 +231,7 @@ nav a:last-child  {
     text-align: center;
     flex-wrap: wrap;
     width: 550px;
-    /* margin-top: -270px;
-    margin-left:-50px; */
+   
 }
 
 .about-us-text-2 {
